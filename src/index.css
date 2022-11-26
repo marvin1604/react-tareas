@@ -1,0 +1,28 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: #e1e76b;
+  color: #1E1E1F;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+#root {
+  margin: 0 24px;
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section{
+  position: relative;
+  width: calc(100% - 24px);
+  max-width: 600px;
+  margin: 0 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
